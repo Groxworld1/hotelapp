@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelPage">
+
+    <Button
+        android:id="@+id/bookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book a Room"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="book"/>
+
+    <Button
+        android:id="@+id/locationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Set Location"
+        android:onClick="location"/>
+
+    <Button
+        android:id="@+id/unbookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unbook a room"
+        tools:layout_editor_absoluteX="203dp"
+        tools:layout_editor_absoluteY="15dp"
+        android:onClick="unbook"/>
+</LinearLayout>
